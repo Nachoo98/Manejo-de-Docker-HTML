@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  apache:
+    build: ./website
+    ports:
+     - '3018:80'
+
